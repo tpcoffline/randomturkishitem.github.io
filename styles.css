@@ -1,0 +1,91 @@
+/* Genel stil ayarları */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6b8eac; /* Arka plan rengini maviye ayarladık */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Üst kısım stil ayarları */
+header {
+    background-color: #ff7f00; /* Kutunun arka plan rengini turuncuya ayarladık */
+    padding: 10px 20px; /* Kutunun iç boşluğunu ayarladık */
+    border-radius: 10px; /* Köşeleri yuvarlattık */
+    text-align: center;
+}
+
+/* Başlık stil ayarları */
+header h1 {
+    margin: 0;
+    color: #000080; /* Yazı rengini laciverte ayarladık */
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Main kısmı ortalama ayarları */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Başlat tuşu stil ayarları */
+.start-button {
+    background-color: #ff7f00; /* Tuş arka plan rengini turuncuya ayarladık */
+    color: #000080; /* Tuş yazı rengini laciverte ayarladık */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.start-button:hover {
+    background-color: #e67300; /* Hover efekti için daha koyu bir turuncu */
+}
+
+/* Oyun konteyneri ve item stilleri */
+#game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.item {
+    background-color: #fff;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-count {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Gizli elemanlar */
+.hidden {
+    display: none;
+}
+
+/* Timer stili */
+#timer {
+    font-size: 24px;
+    color: #ff0000;
+    margin-top: 20px;
+}
